@@ -19,3 +19,7 @@ Learn to Solder Badge based on an Atmel/Microchip ATtiny841 Microcontroller with
 * [Schematics + Layout](https://github.com/watterott/Robo-Badge/tree/master/hardware)
 * [Assembly Instructions](https://github.com/watterott/Robo-Badge/raw/master/docs/Robo-Badge.pdf)
 * [Arduino Examples](https://github.com/watterott/Robo-Badge/tree/master/software#robo-badge)
+
+
+## Videos
+* [![Robo-Badge](http://img.youtube.com/vi/5p9452rXxyU/0.jpg)](https://www.youtube.com/watch?v=5p9452rXxyU)
