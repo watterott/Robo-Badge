@@ -23,3 +23,4 @@ Learn to Solder Badge based on an Atmel/Microchip ATtiny841 Microcontroller with
 
 ## Videos
 * [![Robo-Badge](http://img.youtube.com/vi/5p9452rXxyU/0.jpg)](https://www.youtube.com/watch?v=5p9452rXxyU)
+* [![Robo-Badge](http://img.youtube.com/vi/_qZ0hpn-2-o/0.jpg)](https://www.youtube.com/watch?v=_qZ0hpn-2-o)
