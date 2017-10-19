@@ -1,6 +1,7 @@
 /*
   TV-Off
-  A TV-B-Gone firmware for Robo-Badge.
+  A TV-B-Gone firmware for Robo-Badge. Press the SW button to start or cancel
+  the IR code transmission.
 
   Based on TV-B-Gone Arduino port by Ken Shirriff and Gabriel Staples
   https://github.com/shirriff/Arduino-TV-B-Gone
@@ -10,7 +11,7 @@
   This project transmits a bunch of TV POWER codes, one right after the other,
   with a pause in between each.  (To have a visible indication that it is
   transmitting, it also pulses a visible LED once each time a POWER code is
-  transmitted.) That is all TV-B-Gone does.  The tricky part of TV-B-Gone
+  transmitted.) That is all TV-B-Gone does. The tricky part of TV-B-Gone
   was collecting all of the POWER codes, and getting rid of the duplicates and
   near-duplicates (because if there is a duplicate, then one POWER code will
   turn a TV off, and the duplicate will turn it on again (which we certainly
@@ -23,7 +24,7 @@
   Hardware:
   PA3/D3 (OC0B/TOCC2) - IR-LED
   PB2/D8 - Normal LED
-  PA0/D0 - Trigger Switch
+  PA0/D0 - Trigger Switch (SW)
   PA4/D4 - Optional Region Switch
 
   Board: ATtiny841 (8MHz)
@@ -424,7 +425,7 @@ void loop()
   #endif
   #ifdef LED
     static uint16_t led=0;
-    if(++led == 0x1000)
+    if (++led == 0x1000)
     {
       digitalWrite(LED, LOW);
       delay_ten_us(3000); // 30 ms ON-time delay
