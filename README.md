@@ -9,12 +9,4 @@ Learn to Solder Badge based on an Atmel/Microchip ATtiny841 Microcontroller with
 * LEDs, Buttons, Pin Connectors...
 * MicroUSB connector for programming/communication
 * Power Supply: CR2032 (3V) / LIR2032 (3.6V) cell battery or USB
-
-[Assembly Instructions](https://github.com/watterott/Robo-Badge/raw/master/hardware/Robo-Badge.pdf)
-
-
-## [Documentation](http://learn.watterott.com/learn-to-solder/robo-badge/)
-
-
-## Shop
-* [Robo-Badge](http://www.watterott.com/en/Robo-Badge)
+* **[Documentation on learn.watterott.com](http://learn.watterott.com/learn-to-solder/robo-badge/)**
