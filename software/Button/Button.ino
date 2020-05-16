@@ -4,6 +4,9 @@
 
   Board: ATtiny841 (8MHz)
   Core:  Standard Arduino (pin map from David A. Mellis)
+
+  Example source code free to use.
+  Further information: https://learn.watterott.com/license/
  */
 
 // pin map from David A. Mellis
